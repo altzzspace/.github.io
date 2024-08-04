@@ -1,0 +1,21 @@
+body {
+    background-color: #ebebe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #47484A;
+}
+
+p {
+    color: #31352e;
+}
