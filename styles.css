@@ -13,9 +13,12 @@ body {
 }
 
 h1 {
+    font-weight: bold;
+    font-size: 2em
     color: #47484A;
 }
 
 p {
+    font-size: 1em
     color: #31352e;
 }
