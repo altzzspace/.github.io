@@ -22,7 +22,13 @@ p {
     margin-bottom: 2em;
 }
 
-/* Button styles */
+a {
+    color: #3C5F51; /* Change link color */
+    text-decoration: underline; /* Add underline to link */
+    font-weight: bold; /* Make link text bold (optional) */
+  }
+
+/* Button styles
 button {
     padding: 0.1em 0.25em;
     width: 13em;
@@ -61,3 +67,4 @@ button span:hover {
 button span:not(hover) {
     transition: all 1s;
 }
+ */
