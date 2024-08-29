@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name to Color Code Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <main class="container" id="capture">
+        <h1>Name to Color Code Converter</h1>
+        <form class="input-section" onsubmit="convertToColor(); return false;">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="Enter first name" required>
+            
+            <label for="middle-name">Middle Name:</label>
+            <input type="text" id="middle-name" placeholder="Enter middle name">
+            
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Enter last name" required>
+            
+            <button type="submit">Convert to Color</button>
+        </form>
+        <button onclick="saveAsImage()">Save as Image</button>
+        <div class="output-section">
+            <div id="color-display" aria-live="polite"></div>
+            <p id="color-info" aria-live="polite"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
